@@ -1,0 +1,97 @@
+# ============================================
+# Zig
+# ============================================
+
+# Zig build output
+zig-out/
+.zig-cache/
+
+# Zig build artifacts / generated files
+*.zig-cache/
+
+# ============================================
+# Build outputs
+# ============================================
+
+# Common local build directories
+build/
+dist/
+target/
+out/
+
+# Native binaries
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Debug / release binaries
+*.debug
+*.pdb
+
+# ============================================
+# macOS
+# ============================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Finder metadata
+._*
+
+# ============================================
+# Editors / IDEs
+# ============================================
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+*.iml
+
+# Vim / Neovim
+*.swp
+*.swo
+*.swn
+*.vimrc
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================
+# C / C++ tooling
+# ============================================
+
+compile_commands.json
+
+# ============================================
+# OS / temporary files
+# ============================================
+
+*.tmp
+*.temp
+*.log
+
+# ============================================
+# Environment / secrets
+# ============================================
+
+.env
+.env.*
+!.env.example
+
+# ============================================
+# Coverage / profiling
+# ============================================
+
+coverage/
+*.prof
+*.gcda
+*.gcno
